@@ -1,8 +1,7 @@
 # Leitura Automática de Hidrômetros (OCR)
 
-[![Status](https://img.shields.io/badge/Status-Concluído_(TCC)-success?style=for-the-badge)](https://github.com/SEU_USUARIO/SEU_REPO)
+[![Status](https://img.shields.io/badge/Status-Concluído_(TCC)-success?style=for-the-badge)](https://github.com/SEU_USUARIO/water-meter-reading-thesis)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge)](https://www.python.org/)
-[![Colab](https://img.shields.io/badge/Open_in_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/SEU_USUARIO/SEU_REPO/blob/main/modelo_de_classificacao_balanceada.ipynb)
 
 ## Contexto Acadêmico
 Este repositório contém os artefatos desenvolvidos no âmbito do **Trabalho de Conclusão de Curso (TCC)** do Bacharelado em Ciências Exatas e Tecnológicas (BCET).
@@ -27,8 +26,8 @@ A abordagem foi dividida em um pipeline de dois estágios para garantir maior ro
 
 | Arquivo | Descrição e Link |
 | :--- | :--- |
-| `Segmentação_detecção.ipynb` | **Etapa 1:** Realiza o pré-processamento e identifica a região do visor do hidrômetro. O output deste modelo recorta a área onde os dígitos estão presentes. <br> [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](LINK_DO_NOTEBOOK_1) |
-| `modelo_de_classificacao_balanceada.ipynb` | **Etapa 2:** Classifica os dígitos numéricos recortados. **Destaque:** Utiliza técnicas de junção de datasets e balanceamento de classes para ampliar a diversidade e robustez do treinamento. <br> [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](LINK_DO_NOTEBOOK_2) |
+| `Segmentação_detecção.ipynb` | **Etapa 1:** Realiza o pré-processamento e identifica a região do visor do hidrômetro. O output deste modelo recorta a área onde os dígitos estão presentes. <br> [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](LINK_DO_NOTEBOOK_1_AQUI) |
+| `modelo_de_classificacao_balanceada.ipynb` | **Etapa 2:** Classifica os dígitos numéricos recortados. **Destaque:** Utiliza técnicas de junção de datasets e balanceamento de classes para ampliar a diversidade e robustez do treinamento. <br> [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](LINK_DO_NOTEBOOK_2_AQUI) |
 
 ---
 
@@ -36,8 +35,12 @@ A abordagem foi dividida em um pipeline de dois estágios para garantir maior ro
 
 ### 1. Pré-processamento e Segmentação
 Visualização da detecção da área do medidor.
+![Resultado Segmentação](assets/resultado_segmentacao.png)
+
 ### 2. Classificação dos Dígitos
 Exemplo de inferência do modelo nos dígitos isolados.
+![Resultado Classificação](assets/resultado_classificacao.png)
+
 ---
 
 ## Roadmap (Próximos Passos)
@@ -55,3 +58,5 @@ O projeto segue em evolução para portabilidade e aplicação em dispositivos m
 
 ## Autor
 Desenvolvido por **Thiago Gabriel Da Silva Oliveira**.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](LINK_DO_SEU_PERFIL_LINKEDIN)
