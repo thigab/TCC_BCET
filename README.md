@@ -1,6 +1,6 @@
 # Leitura Automática de Hidrômetros (OCR)
 
-[![Status](https://img.shields.io/badge/Status-Concluído_(TCC)-success?style=for-the-badge)](https://github.com/SEU_USUARIO/water-meter-reading-thesis)
+[![Status](https://img.shields.io/badge/Status-Concluído_(TCC)-success?style=for-the-badge)](https://github.com/thigab/water-meter-reading-tcc)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge)](https://www.python.org/)
 
 ## Contexto Acadêmico
@@ -59,4 +59,4 @@ O projeto segue em evolução para portabilidade e aplicação em dispositivos m
 ## Autor
 Desenvolvido por **Thiago Gabriel Da Silva Oliveira**.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/thigab)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](LINK_DO_SEU_PERFIL_LINKEDIN)
